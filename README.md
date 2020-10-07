@@ -16,7 +16,7 @@ Twitter Toplinks is project in which a twitter user can login and see analysis o
 # Architecture
 ![](images/architecture.png)
 
-### The architecture is designed in a way that it gives best and fast experience to the user and saves cost too. The main purpose of using Lambda was to save the cost of servers running in the background unnecessarily, which has nowadays become a new norm for organizations to save cost and increase performance. MongoDB Atlas M10 cluster is used for performance and less throughput. The Next.js app is wrapped around with Docker to make it platform independent and scalable in any environment. 
+### The architecture is designed in a way that it gives best and fast experience to the user and saves cost too. The main purpose of using Lambda was to save the cost of servers running in the background unnecessarily, which has nowadays become a new norm for organizations to save cost and increase performance. MongoDB Atlas M10 cluster is used for performance and less throughput. The Next.js app is dockerized to make it platform independent and scalable in any environment. 
 
 ### Installation
 Twitter Toplinks requires Node.js(Next.js) and Django to run locally.
