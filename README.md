@@ -4,8 +4,8 @@ Twitter Toplinks is project in which a twitter user can login and see analysis o
 # Live on [Heroku](https://vishal-twitter-vouch.herokuapp.com)
 
 # Tech Stack
-![](images/django.png) ![](images/next.jpg)
-![](images/lambda.png) ![](images/docker-1.png)
+![](images/django.png | width=80) ![](images/next.jpg | width=80)
+![](images/lambda.png | width=80) ![](images/docker-1.png)
 ![](images/heroku.png)
 * Next.js - for a cool frontend built on top of React
 * Django - for a robust backend
@@ -16,7 +16,7 @@ Twitter Toplinks is project in which a twitter user can login and see analysis o
 # Architecture
 ![](images/architecture.png)
 
-### The architecture is designed in a way that gives best experience to the user and saves cost too. The main purpose of using Lambda was to save the cost of servers running in the background unnecessarily, which has nowadays become a new norm for organizations to save cost. MongoDB Atlas M10 cluster is used for performance and less throughput. The Next.js app is wrapped around with Docker to make it platform independent and scalable in any environment. 
+### The architecture is designed in a way that it gives best and fast experience to the user and saves cost too. The main purpose of using Lambda was to save the cost of servers running in the background unnecessarily, which has nowadays become a new norm for organizations to save cost and increase performance. MongoDB Atlas M10 cluster is used for performance and less throughput. The Next.js app is wrapped around with Docker to make it platform independent and scalable in any environment. 
 
 ### Installation
 Twitter Toplinks requires Node.js(Next.js) and Django to run locally.
@@ -36,3 +36,4 @@ $ cd frontend/
 $ npm i
 $ npm run dev
 ```
+### Please contact me on +91 8617686582 or 17ucs182@lnmiit.ac.in for any issues.
