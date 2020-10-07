@@ -20,8 +20,7 @@ Twitter Toplinks is project in which a twitter user can login and see analysis o
 
 ### Installation
 Twitter Toplinks requires Node.js(Next.js) and Django to run locally.
-You might have to change URI at some places to localhost if you want it to run on your machine
-After cloning the repo install the dependencies and devDependencies and start the server.
+You might have to change URI at some places to localhost if you want it to run on your machine. After cloning the repo install the dependencies and start the server.
 
 ```sh
 $ cd backend/
