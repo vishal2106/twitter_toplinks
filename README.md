@@ -1,5 +1,5 @@
 # Twitter Toplinks
-Twitter Toplinks is project in which a twitter user can login and see analysis of their home timeline.
+Twitter Toplinks is a project in which a twitter user can login and see stats of their timeline.
 
 # Live on [Heroku](https://vishal-twitter-vouch.herokuapp.com)
 
