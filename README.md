@@ -4,8 +4,8 @@ Twitter Toplinks is project in which a twitter user can login and see analysis o
 # Live on [Heroku](https://vishal-twitter-vouch.herokuapp.com)
 
 # Tech Stack
-![](images/django.png | width=80) ![](images/next.jpg | width=80)
-![](images/lambda.png | width=80) ![](images/docker-1.png)
+![](images/django.jpg) ![](images/next.jpg)
+![](images/lambda.png) ![](images/docker-1.png)
 ![](images/heroku.png)
 * Next.js - for a cool frontend built on top of React
 * Django - for a robust backend
