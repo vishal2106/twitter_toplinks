@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 export default function Home() {
   const requestToken = () => {
-    axios.get(`https://i6d4o86peg.execute-api.us-east-1.amazonaws.com/dev/request_token`).then((res) => {
+    axios.get(`http://localhost:8000/dev/request_token`).then((res) => {
       const response = res.data;
       if (response.oauth_callback_confirmed == "true") {
         const token = response.oauth_token;

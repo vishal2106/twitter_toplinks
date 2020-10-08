@@ -25,7 +25,7 @@ SECRET_KEY = 'tiwy28i#^^o8(x7d+mwu)mplz8+(%2)8jayib40@%nvvyj=24)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'i6d4o86peg.execute-api.us-east-1.amazonaws.com', 'localhost']
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -63,7 +63,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASE = {
-    "ATLAS": 'mongodb://vishal:vishal@cluster0-shard-00-00.g3gqa.mongodb.net:27017,cluster0-shard-00-01.g3gqa.mongodb.net:27017,cluster0-shard-00-02.g3gqa.mongodb.net:27017/twitter-toplinks?ssl=true&replicaSet=atlas-hkt41o-shard-0&authSource=admin&retryWrites=true&w=majority'
+    "ATLAS": 'mongodb://'
 }
 
 connect(DATABASE['ATLAS'])
