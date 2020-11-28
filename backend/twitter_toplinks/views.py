@@ -10,14 +10,14 @@ from datetime import datetime
 from pytz import timezone
 import pytz
 
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
+CONSUMER_KEY = 'dcn65SUztq0OSHhgLRWAyGbrv'
+CONSUMER_SECRET = 'cM9FvFzmh5VhYnP2jhEVMKXLXcMMS3TLo20qD4wQLxbEGMyvQL'
 TWITTER_REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 TWITTER_ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 
 def request_oauth_token(request):
     request_token = OAuth1Session(
-        client_key=CONSUMER_KEY, client_secret=CONSUMER_SECRET, callback_uri="http://localhost:3000/tweets"
+        client_key=CONSUMER_KEY, client_secret=CONSUMER_SECRET, callback_uri="https://vishal-twitter-vouch.herokuapp.com/tweets"
     )
     data = request_token.get(TWITTER_REQUEST_TOKEN_URL)
 
