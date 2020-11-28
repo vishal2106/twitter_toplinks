@@ -134,7 +134,7 @@ function Tweets({ data }) {
 
 export async function getServerSideProps({ query }) {
   const tweets = await fetcher(
-    "http://localhost:8000/access_token?oauth_token=" +
+    "https://moei1bq2oc.execute-api.us-east-1.amazonaws.com/dev/access_token?oauth_token=" +
       query.oauth_token +
       "&oauth_verifier=" +
       query.oauth_verifier
